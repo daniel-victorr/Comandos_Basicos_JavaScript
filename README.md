@@ -128,7 +128,7 @@
   
   window.alert('O valor da soma é: ' + soma.toFixed(2))  
    
-  Esse método faz o nosso valor ficar com duas casas depois do ponto.
+  Esse linha faz o nosso valor ficar com duas casas depois do ponto.
   
   Number.parseInt(n1)
   
