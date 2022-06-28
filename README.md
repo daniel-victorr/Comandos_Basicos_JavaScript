@@ -98,7 +98,9 @@
 * Eventos do js
 
   window.alert()    mostra uma janela com  as imformações  e também com o botão: ok.
+  
   window.prompt()   mostra uma janela para o usuário digitar e também com o botões ok.
+  
   window.confirm()  mostra uma janela com o botão: ok.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
