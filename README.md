@@ -1,8 +1,8 @@
-# Comandos_'Básicos_JavaScript'
 
-## Comandos básicos de JavaScript para iniciantes
 
-* Tipos de dados 
+# Comandos básicos de JavaScript para iniciantes
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Tipos de dados 
 
 
  1. Number      
@@ -24,25 +24,9 @@
 
  8.  Array     
 
-
-* typeof  -> mostra a tipagem das variável ou dados.
- 
-  exemplos:
-
-   var n = 100
- 
-   typeof n
-   'number'
-
-   typeof 6 
-   'number'
-
-   typeof 'Google'
-   'string'
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* Exemplos de declarações de variáveis no js
+## Declarações de variáveis
                                       
 
   var $nome = 'Daniel'
@@ -58,14 +42,9 @@
   nome = 'Daniel'                  
  
   var salario = 10
+   
+ -------- Ou ---------
  
-  
-       Or                           /* OBS: Podemos usar acentos ou símbolos como por exemplo: var vírgula = ',' 
-                                            NÃO podemos deixar espaços em branco como por exemplo: var nome sobrenome
-                                            NÃO podemos começar com número como por exemplo: 1nome 
-                                            NÃO podemos utilizar palavras reservadas como por exemplo: var let = 10
-                                            Maiúsculas e Minúsculas fazem diferença */
-
   let nome = 'Daniel'; 
  
   let nome = "Daniel"
@@ -87,15 +66,45 @@
   exemplo de atribuição com função:
  
   nome = window.alert()  
-
+  <br>
+  * <Strong>OBS:</Strong> Podemos usar acentos ou símbolos como por exemplo: var vírgula = ',' 
+  
+  * <Strong>NÃO</Strong> podemos deixar espaços em branco como por exemplo: var nome sobrenome
+   
+  * <Strong>NÃO</Strong> podemos começar com número como por exemplo: 1nome 
+   
+  * <Strong>NÃO</Strong> podemos utilizar palavras reservadas como por exemplo: var let = 10
+   
+  * <ins>Maiúsculas</ins> e <ins>Minúsculas</ins> fazem diferença.
+                                           
+  <br>
    Podemos atribuir valores inteiros e reais para as nossas variávies.
+  
    Podemos atribuir função.
+   
    Podemos atribuir objto.
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* Eventos do js
+## typeof  
+
+<em>typeof -> mostra a tipagem das variável ou dados.</em>
+ 
+   var n = 100
+ 
+   typeof n
+   'number'
+
+   typeof 6 
+   'number'
+
+   typeof 'Google'
+   'string'
+ 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Eventos 
 
   window.alert()    mostra uma janela com  as imformações  e também com o botão: ok.
   
@@ -105,7 +114,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* Comentários do js
+## Comentários 
  
   /* comentário de várias linhas
     text
@@ -118,17 +127,15 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-* Exemplo de converção de dados:
+## Converção de dados:
 
-  n1 = Number(window.prompt('Informe um número'))
+  n1 = Number(window.prompt('Informe um número')
  
   n2 = 10.90
  
   soma = n1 + n2;
   
-  window.alert('O valor da soma é: ' + soma.toFixed(2))  
-   
-  Esse linha faz o nosso valor ficar com duas casas depois do ponto.
+  window.alert('O valor da soma é: ' + soma.toFixed(2)) <em> ->  Essa linha faz o nosso valor ficar com duas casas depois do ponto.</em>  
   
   Number.parseInt(n1)
   
